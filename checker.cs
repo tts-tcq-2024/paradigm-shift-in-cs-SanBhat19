@@ -49,11 +49,11 @@ namespace paradigm_shift_csharp
         {
             if(value > max)
             {
-                PrintMessage("Abnormal - Low")
+                PrintMessage("Abnormal - Low");
             }
             else
             {
-                PrintMessage("Abnormal - High")
+                PrintMessage("Abnormal - High");
             }
         }
         static void PrintMessage(string message)
