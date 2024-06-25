@@ -45,15 +45,15 @@ namespace paradigm_shift_csharp
             }
             return true;
         }
-        static void Measure(float value, float min, float max)
+        static void Measure(float value, float max)
         {
             if(value > max)
             {
-                PrintMessage("Abnormal - Low");
+                PrintMessage("Abnormal - High");
             }
             else
             {
-                PrintMessage("Abnormal - High");
+                PrintMessage("Abnormal - Low");
             }
         }
         static void PrintMessage(string message)
