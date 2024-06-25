@@ -39,7 +39,7 @@ namespace paradigm_shift_csharp
         {
             if (charge > 0.8)
             {
-                Measure(charge, 0.8);
+                Measure(charge, float.Parse(0.8));
                 PrintMessage("Charge Rate is out of range!");
                 return false;
             }
